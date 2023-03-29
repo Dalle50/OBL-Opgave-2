@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OBL_Opgave_2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="781">
+        Title="MainWindow" Height="450" Width="985">
     <Grid Margin="0,0,0,21">
         <Button x:Name="SelectBtn" Content="Select" HorizontalAlignment="Left" Margin="79,55,0,0" VerticalAlignment="Top" Click="SelectBtn_Click"/>
         <Button x:Name="InsertBtn" Content="Insert" HorizontalAlignment="Left" Margin="145,55,0,0" VerticalAlignment="Top" Click="InsertBtn_Click"/>
@@ -18,11 +18,16 @@
         <TextBlock HorizontalAlignment="Left" Margin="43,102,0,0" TextWrapping="Wrap" Text="ID" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="43,126,0,0" TextWrapping="Wrap" Text="Fornavn" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="42,185,0,0" TextWrapping="Wrap" Text="Gæld" VerticalAlignment="Top"/>
-        <ListBox x:Name="myListBox" Margin="236,102,84,26"/>
+        <ListBox x:Name="myListBox" Margin="236,147,84,-19"/>
         <TextBlock HorizontalAlignment="Left" Margin="39,147,0,0" TextWrapping="Wrap" Text="Efternavn" VerticalAlignment="Top"/>
         <TextBox x:Name="LastNameText" HorizontalAlignment="Left" Margin="97,148,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="43,168,0,0" TextWrapping="Wrap" Text="Løn" VerticalAlignment="Top"/>
         <TextBox x:Name="SalleryText" HorizontalAlignment="Left" Margin="97,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="threadStatus" Margin="574,10,25,279" Height="NaN" Width="NaN"/>
+        <TextBlock HorizontalAlignment="Left" Margin="521,14,0,0" TextWrapping="Wrap" Text="T1 Status" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="521,35,0,0" TextWrapping="Wrap" Text="T2 Status" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="521,56,0,0" TextWrapping="Wrap" Text="T3 Status" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="521,77,0,0" TextWrapping="Wrap" Text="T4 Status" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
